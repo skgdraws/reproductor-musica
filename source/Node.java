@@ -28,6 +28,8 @@ public class Node {
 
     /**
      * Changes the value of the current node
+     * @param data Value which you want to change in the current node
+     *
      * @author Franco Sagot
      */
     public void setData(data){
@@ -37,8 +39,9 @@ public class Node {
 
     /**
      * Returns the next node using the pointer
-     * @author Franco Sagot
      * @return Next Node
+     *
+     * @author Franco Sagot
      */
     public Node getNext() {
 
@@ -47,8 +50,9 @@ public class Node {
 
     /**
      * Returns the previous node using the pointer
-     * @author Franco Sagot
      * @return Previous Node
+     *
+     * @author Franco Sagot
      */
     public Node getPrev() {
 
@@ -57,8 +61,9 @@ public class Node {
 
     /**
      * The function sets the node that follows
+     * @param node Next Node
+     *
      * @author Franco Sagot
-     * @param Next Node
      */
     public void setNext(Node node) {
 
@@ -67,8 +72,9 @@ public class Node {
 
     /**
      * The function sets the node that preceeds it
+     * @param node Previews Node
+     *
      * @author Franco Sagot
-     * @param Previews Node
      */
     public void setPrev(Node node) {
 

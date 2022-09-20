@@ -1,7 +1,21 @@
 import Node
 
+/**
+ * Represents a List that loops around itself
+ * @author Franco Sagot
+ */
 public class CircularList{
 
-    Object value;
-    Node
+    Node head;
+    Node tail;
+
+    /**
+     * Creates an instance of a Circular List
+     * @author Franco Sagot
+     */
+    private CircularList(){
+
+        this head = null;
+        this.tail = null;
+    }
 }
