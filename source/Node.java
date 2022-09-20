@@ -5,10 +5,11 @@ public class Node {
     Object value;
 
     /**
-     *
+     * Defines the instance of the Node Class
+     * @author Franco Sagot
      * @param getValue
      */
-    public void Node(Object getValue){
+    public Node(Object getValue){
 
         this.next = null;
         this.prev = null;
@@ -17,6 +18,7 @@ public class Node {
 
     /**
      * Returns the value that the current node has
+     * @author Franco Sagot
      * @return value from node
      */
     public Object getData(){
@@ -26,6 +28,7 @@ public class Node {
 
     /**
      * Changes the value of the current node
+     * @author Franco Sagot
      */
     public void setData(data){
 
@@ -34,6 +37,7 @@ public class Node {
 
     /**
      * Returns the next node using the pointer
+     * @author Franco Sagot
      * @return Next Node
      */
     public Node getNext() {
@@ -43,6 +47,7 @@ public class Node {
 
     /**
      * Returns the previous node using the pointer
+     * @author Franco Sagot
      * @return Previous Node
      */
     public Node getPrev() {
@@ -52,6 +57,7 @@ public class Node {
 
     /**
      * The function sets the node that follows
+     * @author Franco Sagot
      * @param Next Node
      */
     public void setNext(Node node) {
@@ -61,6 +67,7 @@ public class Node {
 
     /**
      * The function sets the node that preceeds it
+     * @author Franco Sagot
      * @param Previews Node
      */
     public void setPrev(Node node) {

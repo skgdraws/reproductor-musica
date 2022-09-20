@@ -1,0 +1,7 @@
+import Node
+
+public class CircularList{
+
+    Object value;
+    Node
+}
