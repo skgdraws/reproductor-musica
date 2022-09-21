@@ -1,4 +1,3 @@
-import Node;
 
 public class LinkedList{
 

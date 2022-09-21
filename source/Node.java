@@ -23,7 +23,7 @@ public class Node {
      */
     public Object getData(){
 
-        return this.value
+        return this.value;
     }
 
     /**
@@ -32,9 +32,9 @@ public class Node {
      *
      * @author Franco Sagot
      */
-    public void setData(data){
+    public void setData(Object insertData){
 
-        this.value = data;
+        this.value = insertData;
     }
 
     /**
