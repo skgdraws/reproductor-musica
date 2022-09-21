@@ -1,17 +1,21 @@
 public class Song {
     
     String name;
-    String group;
+    String artist;
+    String album;
+    String date;
 
     boolean favourite;
     String dir;
 
-    private Song(String name, String group, Boolean favourite, String path){
+    private Song(String name, String group, String album, String date, Boolean favourite, String path){
 
         this.name = name;
-        this.group = group;
+        this.artist = group;
+        this.album = album;
+        this.date = date;
+        
         this.favourite = favourite;
-
         this.dir = path;
     }
 
@@ -22,7 +26,7 @@ public class Song {
 
     public String getBand(){
 
-        return this.group;
+        return this.artist;
     }
 
     public String songPath(){
