@@ -1,3 +1,3 @@
-public class playlistMenuState {
+public class PlaylistMenuState{
     
 }
