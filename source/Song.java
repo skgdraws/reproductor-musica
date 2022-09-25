@@ -1,3 +1,8 @@
+/**
+ * Class that stores Song metadata and path
+ * 
+ * @author Franco Sagot
+ */
 public class Song {
     
     String name;
@@ -19,16 +24,31 @@ public class Song {
         this.dir = path;
     }
 
+    /**
+     * Returns the name of the song that is inside of the XML File
+     * 
+     * @return The name of the song
+     */
     public String getName(){
 
         return this.name;
     }
 
+    /**
+     * Returns the name of the group that is inside of the XML File
+     * 
+     * @return The name of the band
+     */
     public String getBand(){
 
         return this.artist;
     }
 
+    /**
+     * Returns the song's directory path that is inside of the XML File
+     * 
+     * @return
+     */
     public String songPath(){
 
         return this.dir;

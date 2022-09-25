@@ -1,5 +1,6 @@
 /**
  * Represents a List that loops around itself
+ * 
  * @author Franco Sagot
  */
 public class Playlist{
@@ -20,6 +21,12 @@ public class Playlist{
         this.size = 0;
     }
 
+    /**
+     * Insterts Data in the first position of the list
+     * @param Data data that will be inserted first in the list
+     * 
+     * @author Franco Sagot
+     */
     public void insertFirst(Object Data){
 
         Node insertedNode = new Node(Data);
@@ -33,6 +40,12 @@ public class Playlist{
 
     }
 
+    /**
+     * Deletes the first node of the list
+     * @return Deleted node
+     * 
+     * @author Franco Sagot
+     */
     public Node deleteFirst(){
 
         if(this.head != null){

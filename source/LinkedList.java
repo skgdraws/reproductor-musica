@@ -1,4 +1,8 @@
-
+/**
+ * List made out of nodes using pointers to find the data
+ * 
+ * @author Franco Sagot
+ */
 public class LinkedList{
 
     int size;

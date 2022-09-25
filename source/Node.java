@@ -1,3 +1,8 @@
+/**
+ * Class used for storing data in the different lists
+ * 
+ * @author Franco Sagot
+ */
 public class Node {
     
     Node next;

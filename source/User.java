@@ -1,3 +1,8 @@
+/**
+ * The class that stores User Data :3
+ * 
+ * @author Franco Sagot
+ */
 public class User {
     
     String fullName;
