@@ -35,7 +35,9 @@ public class Playlist{
         this.head.prev = insertedNode;
 
         this.head = insertedNode;
-        this.tail = insertedNode;
+       
+        if (this.head == null) this.tail = insertedNode;
+        
         this.size++;
 
     }
