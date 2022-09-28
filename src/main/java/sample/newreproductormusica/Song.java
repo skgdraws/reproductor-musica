@@ -1,8 +1,8 @@
 package sample.newreproductormusica;
 
 /**
- * Class that stores Song metadata and path
- * 
+ * Class that stores Song metadata and path.
+ * The class isn't used
  * @author Franco Sagot
  */
 public class Song {

@@ -1,8 +1,8 @@
 package sample.newreproductormusica;
 
 /**
- * UI Class that changes the metadata of the Song (XML)
- * 
+ * UI Class that changes the metadata of the Song (XML).
+ * The class is empty and can't be used
  * @author Franco Sagot
  */
 public class ConfigSongSubstate {

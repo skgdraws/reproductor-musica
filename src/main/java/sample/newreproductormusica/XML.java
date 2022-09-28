@@ -5,8 +5,8 @@ import sample.newreproductormusica.User;
 import sample.newreproductormusica.Song;
 import sample.newreproductormusica.Playlist;
 /**
- * This class reads XMLs and puts it in an array
- * 
+ * This class reads XMLs and puts it in an array.
+ * The class is empty and can't be used
  * @author Franco Sagot
  */
 public class XML {

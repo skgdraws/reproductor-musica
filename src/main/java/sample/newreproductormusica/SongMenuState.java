@@ -1,8 +1,8 @@
 package sample.newreproductormusica;
 
 /**
- * Song Selector Screen for every playlist
- * 
+ * Song Selector Screen for every playlist.
+ * The class is empty and can't be used
  * @author Franco Sagot
  */
 public class SongMenuState {

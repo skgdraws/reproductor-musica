@@ -1,8 +1,8 @@
 package sample.newreproductormusica;
 
 /**
- * Represents a List that loops around itself
- * 
+ * Represents a List that loops around itself.
+ * The class isn't used
  * @author Franco Sagot
  */
 public class Playlist{

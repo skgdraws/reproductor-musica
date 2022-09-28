@@ -1,11 +1,11 @@
 package sample.newreproductormusica;
 
 /**
- * List made out of nodes using pointers to find the data
- * 
+ * List made out of nodes using pointers to find the data.
+ * The class isn't used
  * @author Franco Sagot
  */
-public class LinkedList{
+public class LinkedList {
 
     int size;
     ListNode head;

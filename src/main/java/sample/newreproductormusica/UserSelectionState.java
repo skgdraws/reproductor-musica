@@ -7,7 +7,8 @@ import java.util.LinkedList;
 
 /**
  * This is for the GUI to select users :)
- * 
+ *
+ * The class is empty and can't be used
  * @author Franco Sagot
  */
 public class UserSelectionState {
@@ -18,7 +19,7 @@ public class UserSelectionState {
     private void showUsers(){
         
     }
-    
+
     //La clase ocupa una función para poder seleccionar al usuario y abrir la selección de playlists
     private void selectCurUser(User curUser){
 

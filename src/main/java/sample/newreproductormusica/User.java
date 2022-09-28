@@ -2,7 +2,8 @@ package sample.newreproductormusica;
 
 /**
  * The class that stores User Data :3
- * 
+ *
+ * The class isn't used
  * @author Franco Sagot
  */
 public class User {

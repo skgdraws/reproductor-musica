@@ -1,8 +1,8 @@
 package sample.newreproductormusica;
 
 /**
- * Class used for storing data in the different lists
- * 
+ * Class used for storing data in the different lists.
+ * The class isn't used
  * @author Franco Sagot
  */
 public class ListNode {
@@ -35,7 +35,7 @@ public class ListNode {
 
     /**
      * Changes the value of the current node
-     * @param data Value which you want to change in the current node
+     * @param insertData Value which you want to change in the current node
      *
      * @author Franco Sagot
      */
